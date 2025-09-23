@@ -54,3 +54,9 @@
     display: none !important;
     visibility: collapse !important;
 }
+
+/* hide X button on tab button hover */
+
+.tab-close-button {
+  opacity: 0 !important;
+}
