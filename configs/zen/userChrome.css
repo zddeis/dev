@@ -1,0 +1,56 @@
+/* hide tab icon mute button */
+.tab-icon-overlay {
+  display: none;
+}
+
+
+/* hide workspaces */
+
+.zen-current-workspace-indicator {
+  display: none !important;
+}
+
+
+/* hide search recomendations */
+
+.urlbarView {
+  display: none !important;
+}
+
+/* hide tab icons top offset */
+
+#titlebar {
+  display: flex !important;
+}
+
+#zen-sidebar-top-buttons {
+  display: none !important;
+}
+
+#TabsToolbar {
+  margin-top: 6px !important;
+}
+
+/* page actions on hover */
+
+#page-action-buttons,
+#identity-box {
+  opacity: 0 !important;
+  width: 0px !important;
+
+  transition: 0.3s ease !important;
+}
+
+#urlbar:hover #page-action-buttons,
+#urlbar:hover #identity-box {
+  opacity: 1 !important;
+  width: auto !important;
+}
+
+/* hide href label */
+
+#statuspanel,
+#statuspanel[type="overLink"] {
+    display: none !important;
+    visibility: collapse !important;
+}
