@@ -58,5 +58,11 @@
 /* hide X button on tab button hover */
 
 .tab-close-button {
-  opacity: 0 !important;
+  display: none !important;
+}
+
+/* hide notification-popup (usually "store persistent storage" from chatgpt) */
+
+#notification-popup {
+  display: none !important;
 }
