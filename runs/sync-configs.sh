@@ -4,6 +4,7 @@
 # Format: "source_file:destination_file"
 FILES=(
   "$HOME/dev/configs/hyprland/hyprland.conf:$HOME/.config/hypr/hyprland.conf"
+  "$HOME/dev/configs/hyprland/hyprpaper.conf:$HOME/.config/hypr/hyprpaper.conf"
   "$HOME/dev/configs/wofi/config:$HOME/.config/wofi/config"
   "$HOME/dev/configs/wofi/style.css:$HOME/.config/wofi/style.css"
 )
