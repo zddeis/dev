@@ -103,9 +103,27 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# autocomplete hints
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 
-# Print time header in yellow
-echo
-echo -e "\e[33m $(date '+%H:%M:%S')\e[0m"
-echo
+# Get terminal width
+cols=$(tput cols)
+
+# Get time
+time_str=$(date '+%H:%M:%S')
+
+batt_info=$(cat /sys/class/power_supply/BAT0/capacity 2>/dev/null)
+ac_status=$(cat /sys/class/power_supply/AC/online 2>/dev/null)
+[[ "$ac_status" == "1" ]] && ac_status="" || ac_status=""
+
+batt_str="$batt_info%"
+
+# Calculate spacing to right-align battery
+spaces=$((cols - ${#time_str} - ${#batt_str}))
+
+# Print left time and right battery info
+echo ""
+echo -e "\e[33m${time_str}\e[0m$(printf '%*s' $spaces '')\e[32m${batt_str}\e[0m"
+echo ""
