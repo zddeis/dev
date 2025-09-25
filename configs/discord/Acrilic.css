@@ -1,6 +1,6 @@
 :root {
   /* APP ELEMENTS */
-  --app-bg: rgba(0,0,0,.2);
+  --app-bg: rgba(0, 0, 0, 0.25);
   --app-blur: 4px;
   --app-margin: 0px;
   --app-radius: 10px;
