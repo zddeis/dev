@@ -7,6 +7,8 @@ FILES=(
   "$HOME/dev/configs/hyprland/hyprpaper.conf:$HOME/.config/hypr/hyprpaper.conf"
   "$HOME/dev/configs/wofi/config:$HOME/.config/wofi/config"
   "$HOME/dev/configs/wofi/style.css:$HOME/.config/wofi/style.css"
+  "$HOME/dev/configs/ghostty/config:$HOME/.config/ghostty/config"
+  "$HOME/dev/configs/zsh/.zshrc:$HOME/.zshrc"
 )
 
 for entry in "${FILES[@]}"; do
