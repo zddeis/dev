@@ -6514,7 +6514,7 @@ body {
 
 
 
-/* hover to memeber list */
+/* hover to member list */
 
 .container_c8ffbb {
   width: 60px;
@@ -6536,7 +6536,7 @@ body {
 
 .container_c8ffbb:hover .membersGroup_c8ffbb {
   opacity: 1;
-  height: 18px;
+  height: 42px;
   padding: var(--space-lg) var(--space-xxs) var(--space-xxs) var(--space-md);
 }
 

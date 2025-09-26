@@ -3,6 +3,7 @@
 # List of files and their target destinations
 # Format: "source_file:destination_file"
 FILES=(
+  "$HOME/dev/configs/discord/Acrilic.css:$HOME/.var/app/com.discordapp.Discord/config/Vencord/themes/Acrilic.css"
   "$HOME/dev/configs/hyprland/hyprland.conf:$HOME/.config/hypr/hyprland.conf"
   "$HOME/dev/configs/hyprland/hyprpaper.conf:$HOME/.config/hypr/hyprpaper.conf"
   "$HOME/dev/configs/wofi/config:$HOME/.config/wofi/config"
