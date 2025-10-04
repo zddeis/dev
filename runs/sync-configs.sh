@@ -9,6 +9,7 @@ FILES=(
   "$HOME/dev/configs/wofi/config:$HOME/.config/wofi/config"
   "$HOME/dev/configs/wofi/style.css:$HOME/.config/wofi/style.css"
   "$HOME/dev/configs/ghostty/config:$HOME/.config/ghostty/config"
+  "$HOME/dev/configs/rofi/config.rasi:$HOME/.config/rofi/config.rasi"
   "$HOME/dev/configs/zsh/.zshrc:$HOME/.zshrc"
 )
 
