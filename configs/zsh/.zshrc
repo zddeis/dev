@@ -112,7 +112,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
 cols=$(tput cols)
 
 # Get time
-time_str=$(date '+%H:%M:%S')
+time_str=$(date '+%D %H:%M:%S')
 
 batt_info=$(cat /sys/class/power_supply/BAT0/capacity 2>/dev/null)
 ac_status=$(cat /sys/class/power_supply/AC/online 2>/dev/null)
