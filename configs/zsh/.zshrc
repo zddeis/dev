@@ -127,3 +127,11 @@ spaces=$((cols - ${#time_str} - ${#batt_str}))
 echo ""
 echo -e "\e[33m${time_str}\e[0m$(printf '%*s' $spaces '')\e[32m${batt_str}\e[0m"
 echo ""
+
+
+
+
+# protontricks
+
+alias protontricks='flatpak run com.github.Matoking.protontricks'
+alias protontricks-launch='flatpak run --command=protontricks-launch com.github.Matoking.protontricks'
