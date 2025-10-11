@@ -129,6 +129,7 @@ echo -e "\e[33m${time_str}\e[0m$(printf '%*s' $spaces '')\e[32m${batt_str}\e[0m"
 echo ""
 
 
+# mpvpaper -o "no-audio --loop-playlist shuffle" HDMI-A-1 www.url/to/playlist
 
 
 # protontricks
