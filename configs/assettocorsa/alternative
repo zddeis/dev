@@ -1,0 +1,1 @@
+gamemoderun /home/zddeis/.local/share/Steam/compatibilitytools.d/GE-Proton9-2/proton waitforexitandrun "/home/zddeis/.local/share/Steam/steamapps/common/assettocorsa/ContentManager.exe" --disable-gpu
