@@ -10,11 +10,16 @@
   display: none !important;
 }
 
+/* transparent navigation bar on fullscreen mode */
+
+#tabbrowser-arrowscrollbox {
+  background: transparent !important;
+}
 
 /* hide search recomendations */
 
 .urlbarView {
-  display: none !important;
+  /* display: none !important; */
 }
 
 /* hide tab icons top offset */
@@ -64,5 +69,14 @@
 /* hide notification-popup (usually "store persistent storage" from chatgpt) */
 
 #notification-popup {
-  display: none !important;
+  /*display: none !important;*/
+}
+
+/* new tab transparency */
+
+#urlbar[breakout-extend='true'] {
+  & .urlbar-background {    
+    background-color: rgba(0,0,0, 75%) !important;
+    backdrop-filter: blur(5px);
+  }
 }
