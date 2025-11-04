@@ -1,6 +1,6 @@
 :root {
   /* APP ELEMENTS */
-  --app-bg: rgba(0, 0, 0, 0.15);
+  --app-bg: rgba(0, 0, 0, 0.0);
   --app-blur: 4px;
   --app-margin: 0px;
   --app-radius: 10px;
@@ -6467,30 +6467,50 @@ body {
 }
 
 
+
+.privateChannels_e6b769 {
+  background: transparent;
+}
+
+.container__2637a {
+  background: transparent;
+}
+
+
 /* hover to sidebar */
 
-/* whole sidebar class:  sidebar_c48ade  */
+/* whole sidebar class:  sidebar__5e434  */
 /* server list class:  wrapper_ef3116  */
-/* channels list class:  sidebarList_c48ade   */
+/* channels list class:  sidebarList__5e434   */
 
-.sidebarList_c48ade {
+.sidebarList__5e434 {
+  border: 0;
   width: 0;
   opacity: 0;
 
-  transition: 0.3s ease;
+  transition: 0.1s;
 }
 
-.sidebar_c48ade:hover .sidebarList_c48ade {
+.sidebar__5e434:hover .sidebarList__5e434 {
   width: 304px;
   opacity: 1;
 }
 
-.panels_c48ade {
+.panels__5e434 {
   opacity: 0;
+  background: transparent !important;
 }
 
-.sidebar_c48ade:hover .panels_c48ade {
+.header_f37cb1 {
+  box-shadow: none;
+}
+
+.sidebar__5e434:hover .panels__5e434 {
   opacity: 1;
+}
+
+.sidebar__5e434:after {
+  background: transparent !important;
 }
 
 
@@ -6572,6 +6592,6 @@ body {
 /* hide "invite friends" when alone in call */
 
 
-/* .row_d6271c:has(.root__4ad81) {
+.row_d6271c:has(.root__4ad81) {
    display: none !important; 
-} */
+}
