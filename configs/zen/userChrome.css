@@ -80,3 +80,43 @@
     backdrop-filter: blur(5px);
   }
 }
+
+
+
+/* NAV BAR */
+
+
+/* hide forward & back buttons */
+
+#nav-bar #nav-bar-customization-target #back-button,
+#nav-bar #nav-bar-customization-target #forward-button {
+  display: none !important;
+}
+
+/* hover for extensins button */
+
+#nav-bar #nav-bar-customization-target #unified-extensions-button {
+  opacity: 0 !important;
+  transition: 0.3s ease !important;
+}
+
+#nav-bar #nav-bar-customization-target #unified-extensions-button:hover {
+  opacity: 1 !important;
+}
+
+/* hover for application menu */
+
+#nav-bar #PanelUI-button {
+  opacity: 0 !important;
+  transition: 0.3s ease !important;
+}
+
+#nav-bar #PanelUI-button:hover {
+  opacity: 1 !important;
+}
+
+/* hide X button */
+
+#nav-bar .titlebar-buttonbox-container {
+  display: none !important;
+}
