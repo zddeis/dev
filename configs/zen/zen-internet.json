@@ -3116,11 +3116,11 @@
 
 
         "devforum.roblox.com.css": {
-            "transparency": "html, body, #main, #ember3, .d-header, .css-1e5cwnj-Grid-root-root-topNavigation, .web-blox-css-tss-kqp5ww-background {\n  background: transparent !important;\n}"
+            "transparency": "html, body, #main, #ember3, .d-header, .css-1e5cwnj-Grid-root-root-topNavigation, {\n  background: transparent !important;\n}"
         },
         "create.roblox.com.css": {
             "darkreader": ":root {\n  --darkreader-background-ffffff: transparent !important;\n}",
-            "transparency": "html, body, #__next, .MuiGrid-root, .MuiGrid-grid-XSmall-true, .MuiGrid-direction-xs-column, .MuiGrid-wrap-xs-nowrap, .MuiPaper-elevation, .MuiPaper-elevation > div > span, footer > div, main > div, header > div, .MuiTypography-root, header > div > div {\n    background: transparent !important; \nbackground-color: transparent !important; \n}"
+            "transparency": "html, body, #__next, .MuiGrid-root, .MuiGrid-grid-XSmall-true, .MuiGrid-direction-xs-column, .web-blox-css-tss-kqp5ww-background, .MuiGrid-wrap-xs-nowrap, .MuiPaper-elevation, .MuiPaper-elevation > div > span, footer > div, main > div, header > div, .MuiTypography-root, header > div > div {\n    background: transparent !important; \nbackground-color: transparent !important; \n}"
         },
         "excalidraw.com.css": {
             "transparency": "html, body {\n  background: transparent !important;\n}"
