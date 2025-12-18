@@ -4,6 +4,8 @@
 # Format: "source_file:destination_file"
 FILES=( 
   "$HOME/dev/configs/discord/Acrilic.css:$HOME/.config/Vencord/themes/Acrilic.css"
+  "$HOME/dev/configs/discord/sys24.css:$HOME/.config/Vencord/themes/sys24.css"
+  "$HOME/dev/configs/discord/mica.css:$HOME/.config/Vencord/themes/mica.css"
 
   "$HOME/dev/configs/hyprland/hyprland.conf:$HOME/.config/hypr/hyprland.conf"
   "$HOME/dev/configs/hyprland/hyprpaper.conf:$HOME/.config/hypr/hyprpaper.conf"
