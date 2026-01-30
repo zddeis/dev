@@ -1,5 +1,5 @@
 /**
- * @name Discord Mica
+ * @name Custom Mica
  * @author Coolkie
  * @version 1.0
  * @description Discord with mica :)
@@ -307,3 +307,9 @@ body{
   --custom-app-top-bar-height: calc(24px + var(--space-sm)); /* Set to 0 if you don't want to use Discord title-bar */
   --title-bar-icon: flex; /* Set to none to remove icons */
   }
+
+
+
+.affa7e120767dd82-scroller {
+  background: transparent !important;
+}

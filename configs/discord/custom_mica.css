@@ -12,17 +12,17 @@
   /*Dark mode*/
   --dark-bg: transparent;
   --dark-layer1: 255,255,255;
-  --dark-flyout: rgba(30,30,30);
+  --dark-flyout: rgba(0,0,0);
   --dark-select: 255,255,255;
   --dark-accent: rgb(76, 194, 255);
-  --dark-accent-hovered: rgb(65, 163, 214); /*also disabled button*/
+  --dark-accent-hovered: rgb(0, 0, 0); /*also disabled button*/
   --dark-accent-font-color: black;
-  --dark-button: rgb(45,45,45);
-  --dark-button-border: rgb(60, 60, 60);
+  --dark-button: rgb(0,0,0);
+  --dark-button-border: rgb(0, 0, 0);
   --dark-button-font-color: white;
   --dark-dm-about: rgba(0,0,0,0.4);
-  --dark-background-accent: rgba(50,50,50,0.9);
-  --dark-status-panel: rgba(30,30,30,0.4);
+  --dark-background-accent: rgba(0,0,0,0.9);
+  --dark-status-panel: rgba(0,0,0,0.4);
 
   /*Light mode*/
   --light-bg: transparent;
@@ -280,16 +280,16 @@ body{
 
  :root {
   /*Dark mode*/
-  --dark-bg: transparent; /*rgba(240,185,190,0.113); to achieve screenshot looking*/
-  --dark-flyout: rgba(30,30,30);
-  --dark-accent: rgb(76, 194, 255);
+  --dark-bg: rgba(0,0,0, 0.75); /*rgba(240,185,190,0.113); to achieve screenshot looking*/
+  --dark-flyout: rgba(0, 0, 0, 0.9);
+  --dark-accent: rgb(0, 0, 0);
   --dark-accent-hovered: rgb(65, 163, 214); /*also disabled button*/
   --dark-accent-font-color: black;
-  --dark-button: rgb(45,45,45);
-  --dark-button-border: rgb(60, 60, 60);
+  --dark-button: rgb(0,0,0);
+  --dark-button-border: rgb(20, 20, 20);
   --dark-button-font-color: white;
-  --dark-background-accent: rgba(50,50,50,0.9);
-  --dark-status-panel: rgba(30,30,30,0.4);
+  --dark-background-accent: rgba(0,0,0,0.75);
+  --dark-status-panel: rgba(0,0,0,0.75);
 
   /*Light mode*/
   --light-bg: transparent;
@@ -311,5 +311,20 @@ body{
 
 
 .affa7e120767dd82-scroller {
+  background: transparent !important;
+}
+
+
+/* text input transparent */
+.channelTextArea_f75fb0 & .channelTextArea__74017 {
+  background: transparent !important;
+}
+
+/* call background transparent */
+.callContainer_cb9592 {
+  background: transparent !important;
+}
+
+.root_bfe55a {
   background: transparent !important;
 }

@@ -20,10 +20,10 @@ configuration {
   g-padding: 12px;
   hl-color: hsla(0, 0%, 100%, 1.00);
   hlt-color: hsla(0, 0%, 0%, 1.00);
-  alt-color: hsla(0, 0%, 20%, 0.25);
-  wbg-color: hsla(0, 0%, 10%, 0.75);
+  alt-color: hsla(0, 0%, 10%, 0.25);
+  wbg-color: hsla(0, 0%, 0%, 0.875);
   w-border: 1px solid;
-  w-border-color: hsla(0, 0%, 25%, 0.50);
+  w-border-color: hsla(0, 0%, 10%, 1.00);
   w-padding: 12px;
 }
 
