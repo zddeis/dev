@@ -18,6 +18,8 @@ FILES=(
   "$HOME/dev/configs/wofi/style.css:$HOME/.config/wofi/style.css"
   "$HOME/dev/configs/rofi/config.rasi:$HOME/.config/rofi/config.rasi"
 
+  "$HOME/dev/configs/dunst/dunstrc:$HOME/.config/dunst/dunstrc"
+
   "$HOME/dev/configs/zsh/.zshrc:$HOME/.zshrc"
 )
 

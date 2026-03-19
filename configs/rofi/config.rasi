@@ -21,7 +21,7 @@ configuration {
   hl-color: hsla(0, 0%, 100%, 1.00);
   hlt-color: hsla(0, 0%, 0%, 1.00);
   alt-color: hsla(0, 0%, 10%, 0.25);
-  wbg-color: hsla(0, 0%, 0%, 0.875);
+  wbg-color: hsla(0, 0%, 0%, 0.5);
   w-border: 1px solid;
   w-border-color: hsla(0, 0%, 10%, 1.00);
   w-padding: 12px;

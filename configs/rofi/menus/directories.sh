@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
 menu_directories=(
-    "󰓓   Steam Common|$HOME/.local/share/Steam/steamapps/common"
+    "   Home|$HOME"
     "   Downloads|$HOME/Downloads"
     "󰈙   Documents|$HOME/Documents"
+    "   .config|$HOME/.config"
+    "󰓓   Steam Common|$HOME/.local/share/Steam/steamapps/common"
     "   Custom Directory|__CUSTOM__"
 )
 

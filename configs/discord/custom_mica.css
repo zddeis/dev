@@ -283,7 +283,7 @@ body{
   --dark-bg: rgba(0,0,0, 0.75); /*rgba(240,185,190,0.113); to achieve screenshot looking*/
   --dark-flyout: rgba(0, 0, 0, 0.9);
   --dark-accent: rgb(0, 0, 0);
-  --dark-accent-hovered: rgb(65, 163, 214); /*also disabled button*/
+  --dark-accent-hovered: rgb(10, 10, 10); /*also disabled button*/
   --dark-accent-font-color: black;
   --dark-button: rgb(0,0,0);
   --dark-button-border: rgb(20, 20, 20);

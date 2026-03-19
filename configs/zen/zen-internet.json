@@ -3117,7 +3117,7 @@
         },
         "create.roblox.com.css": {
             "darkreader": ":root {\n  --darkreader-background-ffffff: transparent !important;\n}",
-            "transparency": "html, body, #__next, .MuiGrid-root, .MuiGrid-grid-XSmall-true, .MuiGrid-direction-xs-column, .web-blox-css-tss-kqp5ww-background, .MuiGrid-wrap-xs-nowrap, .MuiPaper-elevation, .MuiPaper-elevation > div > span, footer > div, main > div, header > div, .MuiTypography-root, header > div > div {\n    background: transparent !important; \nbackground-color: transparent !important; \n}"
+            "transparency": "html, body, #__next, .MuiGrid-root, .MuiGrid-grid-XSmall-true, .MuiGrid-direction-xs-column, .web-blox-css-tss-kqp5ww-background, .MuiGrid-wrap-xs-nowrap, .MuiPaper-elevation, .MuiPaper-elevation > div > span, footer > div, main > div, header > div, .MuiTypography-root, header > div > div, .web-blox-css-tss-h49f4m-background {\n    background: transparent !important; \nbackground-color: transparent !important; \n}"
         },
         "excalidraw.com.css": {
             "transparency": "html, body {\n  background: transparent !important;\n}"
