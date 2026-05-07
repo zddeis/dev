@@ -1,0 +1,11 @@
+virtual_modifiers:
+  - CapsLock
+
+keymap:
+  - name: CapsLock as Vim-style arrow modifier
+    remap:
+      CapsLock-h: Left
+      CapsLock-j: Down
+      CapsLock-k: Up
+      CapsLock-l: Right
+      
