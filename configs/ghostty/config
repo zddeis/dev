@@ -53,3 +53,4 @@
 background = 000000
 foreground = ffffff
 background-opacity = 0.5
+confirm-close-surface = false

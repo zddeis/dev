@@ -8,14 +8,12 @@ FILES=(
   "$HOME/dev/configs/discord/custom_mica.css:$HOME/.config/Vencord/themes/custom_mica.css"
   "$HOME/dev/configs/discord/mica.css:$HOME/.config/Vencord/themes/mica.css"
 
-  "$HOME/dev/configs/hyprland/hyprland.conf:$HOME/.config/hypr/hyprland.conf"
+  "$HOME/dev/configs/hyprland/hyprland.lua:$HOME/.config/hypr/hyprland.lua"
   "$HOME/dev/configs/hyprland/hyprpaper.conf:$HOME/.config/hypr/hyprpaper.conf"
   "$HOME/dev/configs/hyprland/hyprlock.conf:$HOME/.config/hypr/hyprlock.conf"
 
   "$HOME/dev/configs/ghostty/config:$HOME/.config/ghostty/config"
 
-  "$HOME/dev/configs/wofi/config:$HOME/.config/wofi/config"
-  "$HOME/dev/configs/wofi/style.css:$HOME/.config/wofi/style.css"
   "$HOME/dev/configs/rofi/config.rasi:$HOME/.config/rofi/config.rasi"
 
   "$HOME/dev/configs/xremap/config.yml:$HOME/.config/xremap/config.yml"

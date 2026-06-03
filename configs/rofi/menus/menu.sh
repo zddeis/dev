@@ -3,7 +3,7 @@
 menu=(
     "   Projects|$HOME/dev/configs/rofi/menus/projects.sh"
     "   Directories|$HOME/dev/configs/rofi/menus/directories.sh"
-    "   Configs|$HOME/dev/configs/rofi/menus/configs.sh"
+    "   Opencode|ghostty -e zsh -lc '$HOME/.opencode/bin/opencode'"
     "   Settings|$HOME/dev/configs/rofi/menus/settings.sh"
     "   Stats|$HOME/dev/configs/rofi/menus/stats.sh"
     "   BTOP|ghostty -e btop"
