@@ -1,0 +1,24 @@
+hl.config({
+    input = {
+        kb_layout  = "pt",
+        kb_variant = "", --nodeadkeys
+        kb_model   = "",
+        kb_options = "",
+        kb_rules   = "",
+
+        follow_mouse = 1,
+
+        sensitivity = 0, -- -1.0 - 1.0, 0 means no modification.
+
+        touchpad = {
+            natural_scroll = true,
+        },
+    },
+})
+
+-- Example per-device config
+-- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/ for more
+hl.device({
+    name        = "razer-razer-deathadder-essential",
+    sensitivity = 0.0,
+})

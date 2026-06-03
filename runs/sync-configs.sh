@@ -9,6 +9,7 @@ FILES=(
   "$HOME/dev/configs/discord/mica.css:$HOME/.config/Vencord/themes/mica.css"
 
   "$HOME/dev/configs/hyprland/hyprland.lua:$HOME/.config/hypr/hyprland.lua"
+  "$HOME/dev/configs/hyprland/modules:$HOME/.config/hypr/"
   "$HOME/dev/configs/hyprland/hyprpaper.conf:$HOME/.config/hypr/hyprpaper.conf"
   "$HOME/dev/configs/hyprland/hyprlock.conf:$HOME/.config/hypr/hyprlock.conf"
 
@@ -23,15 +24,28 @@ FILES=(
   "$HOME/dev/configs/zsh/.zshrc:$HOME/.zshrc"
 )
 
-for entry in "${FILES[@]}"; do
+process_entry() {
+    local entry="$1"
     IFS=":" read -r src dst <<< "$entry"
     echo "Copying $src → $dst"
-    
-    # Create target directory if it doesn’t exist
+
     mkdir -p "$(dirname "$dst")"
-    
-    # Copy file
-    cp -f "$src" "$dst"
-done
+
+    if [ -d "$src" ]; then
+        cp -rf "$src" "$dst"
+    else
+        cp -f "$src" "$dst"
+    fi
+}
+
+if [ $# -gt 0 ]; then
+    for entry in "$@"; do
+        process_entry "$entry"
+    done
+else
+    for entry in "${FILES[@]}"; do
+        process_entry "$entry"
+    done
+fi
 
 echo "Finished"
