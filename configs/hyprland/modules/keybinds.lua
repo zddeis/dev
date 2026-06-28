@@ -34,6 +34,9 @@ hl.bind("ALT + space", hl.dsp.exec_cmd("vicinae toggle"))
 hl.bind(mainMod.." + space", hl.dsp.exec_cmd("vicinae deeplink vicinae://extensions/vicinae/wm/switch-windows"))
 hl.bind(mainMod.." + period", hl.dsp.exec_cmd("vicinae deeplink vicinae://extensions/vicinae/core/search-emojis"))
 
+-- HYPRSHELL --
+
+
 --------------------
 ----- HYPR ECO -----
 --------------------

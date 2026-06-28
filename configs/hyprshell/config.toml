@@ -11,7 +11,7 @@ filter_by = []
 hide_filtered = false
 
 [windows.overview.launcher]
-default_terminal = "kitty"
+default_terminal = "ghostty"
 launch_modifier = "ctrl"
 width = 850
 max_items = 10
