@@ -21,6 +21,8 @@ FILES=(
 
   "$HOME/dev/configs/rofi/config.rasi:$HOME/.config/rofi/config.rasi"
 
+  "$HOME/dev/configs/vicinae/settings.json:$HOME/.config/vicinae/settings.json"
+
   "$HOME/dev/configs/xremap/config.yml:$HOME/.config/xremap/config.yml"
 
   "$HOME/dev/configs/dunst/dunstrc:$HOME/.config/dunst/dunstrc"
