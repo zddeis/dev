@@ -13,6 +13,10 @@ FILES=(
   "$HOME/dev/configs/hyprland/hyprpaper.conf:$HOME/.config/hypr/hyprpaper.conf"
   "$HOME/dev/configs/hyprland/hyprlock.conf:$HOME/.config/hypr/hyprlock.conf"
 
+  "$HOME/dev/configs/hyprshell/config.ron:$HOME/.config/hyprshell/config.ron"
+  "$HOME/dev/configs/hyprshell/config.toml:$HOME/.config/hyprshell/config.toml"
+  "$HOME/dev/configs/hyprshell/styles.css:$HOME/.config/hyprshell/styles.css"
+
   "$HOME/dev/configs/ghostty/config:$HOME/.config/ghostty/config"
 
   "$HOME/dev/configs/rofi/config.rasi:$HOME/.config/rofi/config.rasi"
