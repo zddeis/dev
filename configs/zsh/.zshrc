@@ -76,6 +76,14 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlightin
 
 source $ZSH/oh-my-zsh.sh
 
+# History configuration
+setopt HIST_IGNORE_ALL_DUPS    # Remove older duplicate entries when new ones are added
+setopt HIST_FIND_NO_DUPS       # Don't show duplicates in Ctrl+R search results
+setopt HIST_SAVE_NO_DUPS       # Don't save duplicate entries to history file
+setopt HIST_IGNORE_SPACE       # Don't record commands starting with space
+setopt HIST_REDUCE_BLANKS      # Remove superfluous blanks from history entries
+setopt SHARE_HISTORY           # Share history across sessions
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

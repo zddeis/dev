@@ -12,7 +12,7 @@
       }
    },
    "launcher_window": {
-      "opacity": 0.5,
+      "opacity": 0.75,
       "size": {
          "width": 600,
          "height": 400
